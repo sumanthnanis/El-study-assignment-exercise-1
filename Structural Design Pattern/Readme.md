@@ -5,6 +5,6 @@ Structural design patterns focus on how objects are composed to form larger stru
 ## Projects
 
 - **Decorator Pattern**: Showcases the Decorator Design Pattern through a Coffee Shop use case.
-- **Adapter Pattern**: Implements the Adapter Design Pattern with an example that connects different interfaces.
+- **Composite Pattern**: Demonstrates the Composite Design Pattern by allowing clients to treat individual objects and compositions of objects uniformly.
 
 Refer to each project's README file for detailed instructions and usage.
