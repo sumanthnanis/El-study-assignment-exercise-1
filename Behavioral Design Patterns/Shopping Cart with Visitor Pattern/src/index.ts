@@ -1,4 +1,3 @@
-// src/index.ts
 import { ShoppingCart } from './ShoppingCart';
 import { Book } from './items/Book';
 import { Clothing } from './items/Clothing';
@@ -28,7 +27,7 @@ function askForItemDetails() {
 
             if (isNaN(price) || price <= 0) {
                 console.log('Please enter a valid positive number for the price.');
-                askForItemDetails(); // Ask for item details again
+                askForItemDetails(); // Asking for item details again
                 return;
             }
 
@@ -46,13 +45,13 @@ function askForItemDetails() {
                     break;
                 default:
                     console.log('Invalid item type. Please enter "book", "clothing", or "electronics".');
-                    askForItemDetails(); // Ask for item details again
+                    askForItemDetails(); // Asking for item details again
                     return;
             }
 
             cart.addItem(item);
             console.log(`${type.charAt(0).toUpperCase() + type.slice(1)} added to the cart.`);
-            askForItemDetails(); // Ask for next item details
+            askForItemDetails(); // Asking for next item details
         });
     });
 }

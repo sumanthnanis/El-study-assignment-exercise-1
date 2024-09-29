@@ -1,4 +1,3 @@
-// src/visitors/IVisitor.ts
 import { Book } from '../items/Book';
 import { Clothing } from '../items/Clothing';
 import { Electronics } from '../items/Electronics';

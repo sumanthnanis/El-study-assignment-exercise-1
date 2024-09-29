@@ -1,4 +1,3 @@
-// src/items/Clothing.ts
 import { IShoppingCartItem } from './IShoppingCartItem';
 import { IVisitor } from '../visitors/IVisitor';
 
