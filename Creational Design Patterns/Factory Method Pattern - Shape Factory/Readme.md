@@ -24,8 +24,8 @@ Before you begin, ensure you have met the following requirements:
 
 1. Clone the repository:
    ```
-   git clone [your-repository-url]
-   cd factory-method-pattern---shape-factory
+   git clone https://github.com/sumanthnanis/El-study-assignment-exercise-1.git
+   cd Creational Design pattern/Factory Method Pattern - Shape Factory
    ```
 
 2. Install the dependencies:
